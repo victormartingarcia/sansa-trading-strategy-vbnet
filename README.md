@@ -137,7 +137,7 @@ I am R&D engineer at [TradingMotion LLC], and head of [TradingMotion SDK] platfo
 
   [VB.net port]: https://github.com/victormartingarcia/arya-trading-strategy-vbnet
   [TradingMotion SDK]: http://sdk.tradingmotion.com
-  [SansaStrategy.cs]: SansaStrategy/SansaStrategy.cs
+  [SansaStrategy.cs]: Sansa/SansaStrategy.cs
   [iSystems platform]: https://www.isystems.com
   [iSystems.com]: https://www.isystems.com
   [iSystems]: https://www.isystems.com
