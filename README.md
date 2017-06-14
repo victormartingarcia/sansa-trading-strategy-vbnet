@@ -15,12 +15,12 @@ Table of Contents
 Overview
 ----
 
-Sansa is a trading algorithm written in C# using the [TradingMotion SDK] development tools (there is a [VB.net port] too).
+Sansa is a trading algorithm written in C# using the [TradingMotion SDK] development tools (there is a [C# port] too).
 
 ![OHLC example chart](markdown_files/OHLC.png)
 <sub>__Image footnote:__ Example of Sansa OHLC financial chart showing some automatic trades</sub>
 
-The strategy code is all contained in [SansaStrategy.cs], including a default parameter combination.
+The strategy code is all contained in [SansaStrategy.vb], including a default parameter combination.
 
 This default parameter combination has been optimized to run over a 100' bars main chart and 120' bars secondary chart of _Euro-Bund Future_.
 
@@ -49,7 +49,7 @@ Sansa Trading Strategy rules:
 
 ### Show me the code ###
 
-Here is a simplified C# source code of Sansa's _OnNewBar()_ function. The complete code is all contained in [SansaStrategy.cs] along with comments and definition of parameters.
+Here is a simplified C# source code of Sansa's _OnNewBar()_ function. The complete code is all contained in [SansaStrategy.vb] along with comments and definition of parameters.
 
 ```VB.net
 Dim indFastSma As WMAIndicator = GetSecondaryChart(0).GetIndicator("Fast WMA")
@@ -92,7 +92,7 @@ Download
 
 First of all, make sure you have Visual Studio 2010 version (or higher). [TradingMotion SDK] is fully compatible with [Visual Studio Express] free versions.
 
-Download TradingMotion [Visual Studio extension], and the windows desktop application [TradingMotionSDK Toolkit installer].
+Download the windows desktop application [TradingMotionSDK Toolkit installer].
 
 
 Quick Start
@@ -135,17 +135,17 @@ Disclaimer
 
 I am R&D engineer at [TradingMotion LLC], and head of [TradingMotion SDK] platform. Beware, the info here can be a little biased ;)
 
-  [VB.net port]: https://github.com/victormartingarcia/arya-trading-strategy-vbnet
-  [TradingMotion SDK]: http://sdk.tradingmotion.com
-  [SansaStrategy.cs]: Sansa/SansaStrategy.cs
-  [iSystems platform]: https://www.isystems.com
-  [iSystems.com]: https://www.isystems.com
-  [iSystems]: https://www.isystems.com
-  [TradingMotion LLC]: http://www.tradingmotion.com
-  [TradingMotion]: http://www.tradingmotion.com
-  [Developers]: http://www.tradingmotion.com/Strategies/Developers
-  [Visual Studio Express]: http://www.visualstudio.com/en-us/downloads#d-2010-express
-  [TradingMotion SDK website]: http://sdk.tradingmotion.com
-  [TradingMotionSDK Toolkit installer]: http://sdk.tradingmotion.com/files/TradingMotionSDKInstaller.msi
-  [Visual Studio extension]: http://sdk.tradingmotion.com/files/TradingMotionSDK_VisualStudio.vsix
-  [More documentation in the Getting Started Guide]: http://sdk.tradingmotion.com/GettingStarted
+ [C# port]: https://github.com/victormartingarcia/arya-trading-strategy-csharp
+ [TradingMotion SDK]: https://sdk.tradingmotion.com
+ [SansaStrategy.vb]: Sansa/SansaStrategy.vb
+ [iSystems platform]: https://www.isystems.com
+ [iSystems.com]: https://www.isystems.com
+ [iSystems]: https://www.isystems.com
+ [TradingMotion LLC]: https://www.tradingmotion.com
+ [TradingMotion]: https://www.tradingmotion.com
+ [Developers]: https://www.tradingmotion.com/Strategies/Developers
+ [Visual Studio Express]: http://www.visualstudio.com/en-us/downloads#d-2010-express
+ [TradingMotion SDK website]: http://sdk.tradingmotion.com
+ [TradingMotionSDK Toolkit installer]: https://sdk.tradingmotion.com/files/TradingMotionSDKv2Installer.msi
+ [More documentation in the Getting Started Guide]: https//sdk.tradingmotion.com/GettingStarted
+
